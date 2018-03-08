@@ -8,4 +8,6 @@ class ProductsController < ApplicationController
     @products = Product.all
   end
 
+  
+
 end
