@@ -7,8 +7,10 @@ class ProductsController < ApplicationController
   def index
     @products = Product.all
   end
-    def inventory
-    end
+  def inventory
+  end
+  def description
+    
 
 
   def product_params
