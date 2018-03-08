@@ -4,5 +4,9 @@ class Product < ActiveRecord::Base
 
   def description
 
-  end 
+  end
+
+  def inventory
+
+    
 end
