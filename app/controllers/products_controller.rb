@@ -8,6 +8,6 @@ class ProductsController < ApplicationController
     @products = Product.all
   end
 
-  
+  def product_params
 
 end
