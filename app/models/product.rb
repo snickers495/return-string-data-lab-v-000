@@ -8,5 +8,5 @@ class Product < ActiveRecord::Base
 
   def inventory
 
-    
+  end
 end
