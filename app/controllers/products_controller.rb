@@ -8,9 +8,10 @@ class ProductsController < ApplicationController
     @products = Product.all
   end
   def inventory
+    @product = Product.find(params[:id])
   end
   def description
-    
+  end
 
 
   def product_params
