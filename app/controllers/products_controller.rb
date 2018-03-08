@@ -7,10 +7,10 @@ class ProductsController < ApplicationController
   def index
     @products = Product.all
   end
+    def inventory
 
 
   def product_params
     params.require(:product).permit(:name, :price, :description, :inventory)
   end
-
 end
