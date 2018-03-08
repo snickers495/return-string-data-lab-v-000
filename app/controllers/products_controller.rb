@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
     redirect_to products_path
   end
   def index
-    @product
+    @products = Product.all
   end
 
 end
